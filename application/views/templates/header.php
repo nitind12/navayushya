@@ -38,15 +38,30 @@
 		#fixed{
 			position:fixed;
 			right:0;
-			top:200px;
+			top:170px;
 			z-index:99999;
 			writing-mode: vertical-rl;
 			text-orientation: mixed;
 			font-weight:600;
+			font-size:14px;
 			padding:10px 5px 10px 5px;
 			border-radius:10px 0px 10px 0px;
 			color:#700f42;
 			background:rgba(255,255,0,.7);
+		}
+		#fixed1{
+			position:fixed;
+			right:0;
+			top:380px;
+			z-index:99999;
+			writing-mode: vertical-rl;
+			text-orientation: mixed;
+			font-size:14px;
+			font-weight:600;
+			padding:10px 5px 10px 5px;
+			border-radius:10px 0px 10px 0px;
+			color:#700f42;
+			background:rgba(0,255,0,.7);
 		}
 	</style>
 
@@ -111,4 +126,5 @@
 		</div>
 	</header>
 	<div id="fixed"><a href="#" style="color:#700f42">Free Online Consultation</a></div>
+	<div id="fixed1"><a href="#" style="color:#700f42">Latest Offers</a></div>
 	<!-- //top-bar -->

@@ -34,6 +34,21 @@
 	<link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
 	    rel="stylesheet">
 	<!-- //Web-Fonts -->
+	<style>
+		#fixed{
+			position:fixed;
+			right:0;
+			top:200px;
+			z-index:99999;
+			writing-mode: vertical-rl;
+			text-orientation: mixed;
+			font-weight:600;
+			padding:10px 5px 10px 5px;
+			border-radius:10px 0px 10px 0px;
+			color:#700f42;
+			background:rgba(255,255,0,.7);
+		}
+	</style>
 
 </head>
 
@@ -95,4 +110,5 @@
 			</div>
 		</div>
 	</header>
+	<div id="fixed"><a href="#" style="color:#700f42">Free Online Consultation</a></div>
 	<!-- //top-bar -->

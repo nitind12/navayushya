@@ -100,7 +100,7 @@
 					</div>
 				</div>
 				<div class="border-top mt-5 pt-lg-4 pt-3 pb-lg-0 pb-3 text-center">
-					<p class="copy-right-grids mt-lg-1">© 2019 Navayushya. All Rights Reserved | Design by
+					<p class="copy-right-grids mt-lg-1">© 2019 Navayushya. All Rights Reserved | Developed by
 						<a href="https://www.teamfreelancers.com/" target="_blank">Teamfreelancers.com</a>
 					</p>
 				</div>

@@ -134,6 +134,15 @@
 			});
 		});
 	</script>
+	 <script>
+		$(document).ready(function() {		
+			$('.aiwhatsapp').hover(function(){
+				$('.aiwhatsapp').css('right', '-5px');
+			}, function() {
+				$('.aiwhatsapp').css('right', '-75px');
+			});															
+		});
+	</script>
 	<!-- //banner slider -->
 
 	<!-- fixed navigation -->
@@ -154,6 +163,8 @@
 
 	<!-- //Js files -->
 
+
+	<a href="https://wa.me/918848644306&text=Hi Navayusha, I would like to inquire about" class="aiwhatsapp" target="_blank"><img src="<?php echo base_url('assets/images/whatsapp_navayusha.png');?>" style="max-width: 120px"></a>
 </body>
 
 </html>

@@ -356,7 +356,7 @@ button.submit:hover {
 }
 
 .banner-top1 {
-    background: url(../images/banner1.jpg) no-repeat 0px 0px;
+    background: url(../images/banner4.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -365,7 +365,7 @@ button.submit:hover {
 }
 
 .banner-top2 {
-    background: url(../images/1.jpg) no-repeat 0px 0px;
+    background: url(../images/banner5.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -374,7 +374,7 @@ button.submit:hover {
 }
 
 .banner-top3 {
-    background: url(../images/banner2.jpg) no-repeat 0px 0px;
+    background: url(../images/banner6.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;

@@ -63,6 +63,9 @@
 			color:#700f42;
 			background:rgba(0,255,0,.7);
 		}
+		.aiwhatsapp{
+			position: fixed; right:-75px; top: 15%; z-index: 9999
+		   }
 	</style>
 
 </head>

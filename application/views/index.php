@@ -9,9 +9,7 @@
 								<h3>Navayushya
 									<span>Ayurveda</span>
 								</h3>
-								<p class="mt-3 mb-md-5 mb-3">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-									minim veniam, quis nostrud exercitation
-									ullamco.</p>
+								<p class="mt-3 mb-md-5 mb-3">The treatments and therapies in Navayushya are based on creating a harmonious mind-body balance, combined with treatments based on an individual’s unique Prakruti and requirements.</p>
 								<a href="#">Read More
 									<i class="fa fa-caret-right ml-2" aria-hidden="true"></i>
 								</a>
@@ -26,9 +24,7 @@
 								<h3>Navayushya
 									<span>Ayurveda</span>
 								</h3>
-								<p class="mt-3 mb-md-5 mb-3">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-									minim veniam, quis nostrud exercitation
-									ullamco.</p>
+								<p class="mt-3 mb-md-5 mb-3">The treatments and therapies in Navayushya are based on creating a harmonious mind-body balance, combined with treatments based on an individual’s unique Prakruti and requirements.</p>
 								<a href="#">Read More
 									<i class="fa fa-caret-right ml-2" aria-hidden="true"></i>
 								</a>
@@ -43,9 +39,7 @@
 								<h3>Navayushya
 									<span>Ayurveda</span>
 								</h3>
-								<p class="mt-3 mb-md-5 mb-3">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-									minim veniam, quis nostrud exercitation
-									ullamco.</p>
+								<p class="mt-3 mb-md-5 mb-3">The treatments and therapies in Navayushya are based on creating a harmonious mind-body balance, combined with treatments based on an individual’s unique Prakruti and requirements.</p>
 								<a href="#">Read More
 									<i class="fa fa-caret-right ml-2" aria-hidden="true"></i>
 								</a>
@@ -60,37 +54,29 @@
 	<div class="clearfix"></div>
 
 	<!-- banner bottom -->
-	<div class="banner-bottom py-5">
+	<div class="banner-bottom py-12" style="background: #700f42">
 		<div class="d-flex container py-xl-3 py-lg-3">
-			<div class="banner-left-bottom-w3ls offset-lg-2 offset-md-1">				
-				<h3 class="text-white my-3">Welcome</h3>
-				<p>Lorem ispum is dummy text. Lorem ispum is dummy text. Lorem ispum is dummy text.Lorem ispum is dummy text. Lorem ispum is dummy text. Lorem ispum is dummy text.Lorem ispum is dummy text.</p>
+			<div class="col-lg-1 col-xs-12" style="margin:0 auto;">							
+			<img src=<?php echo base_url()."assets/images/ayur.png"?> alt=" " class="img-fluid" style="align:left; max-width:200px;">
 			</div>
-			<div class="button">
-				<a href="#" class="w3ls-button-agile">Read More
-					<i class="fas fa-hand-point-right"></i>
-				</a>
-			</div>
+			<div class="banner-left-bottom-w3ls offset-lg-2 offset-md-1">							
+				<h3 class="text-white my-3">Kerala Tradition Of Ayurveda</h3>
+				<p>Kerala can easily be called the only place that has an unbroken tradition of Ayurveda. There, this 5000 year old system of healing continued to thrive over the centuries - 5000 year old system of healing continued to thrive over the centuries</p>
+			</div>			
 		</div>
 	</div>
 	<!-- //banner bottom -->
 
 	<!-- middle section -->
-	<div class="w3ls-welcome py-5">
+	<div class="w3ls-welcome py-1">
 		<div class="container py-xl-5 py-lg-3">
 			<div class="row">
 				<div class="col-lg-5 welcome-right">
-					<img src="images/b2.png" alt=" " class="img-fluid">
+					<img src=<?php echo base_url()."assets/images/b2.png"?> alt=" " class="img-fluid">
 				</div>
 				<div class="col-lg-7 welcome-left mt-4">
-					<h3>About Navaushya</h3>
-					<h6 class="mt-3">Suspendisse porta erat sit amet eros sagittis</h6>
-					<h4 class="my-4 font-italic">Cum sociis natoque penatibus et magnis dis parturient montesmus, Proin vel nibh et
-						elit mollis commodo et nec augue
-						tristique sed.</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porta erat sit amet eros sagittis, quis
-						hendrerit
-						libero aliquam. Fusce semper augue ac dolor efficitur, a pretium metus pellentesque.</p>
+					<h3>Panchakarma for Healing</h3>					
+					<h4 class="my-4 font-italic">It is the Ayurvedic system for detoxification and purification. In this process the body is purified, freeing it to naturally exercise its inherent rejuvenating abilities.</h4>					
 					<div class="readmore-w3-agileits mt-md-5 mt-4">
 						<a href="#" class="w3ls-button-agile text-dark">View More</a>
 					</div>
@@ -101,14 +87,13 @@
 	<!-- //middle section -->
 
 	<!-- services -->
-	<div class="why-choose-agile pt-5" id="services">
+	<div class="why-choose-agile pt-5" id="services" style="margin-bottom:1em;">
 		<div class="container pt-xl-5 pt-lg-3">
 			<div class="w3ls-titles text-center mb-5">
-				<h3 class="title">Our Therepies</h3>
+				<h3 class="title">Process of Healing</h3>
 				<span>
 					<i class="fas fa-user-md"></i>
-				</span>
-				<p class="mt-2">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</span>				
 			</div>
 			<div class="row why-choose-agile-grids-top">
 				<div class="col-lg-4 agileits-w3layouts-grid">
@@ -119,8 +104,8 @@
 							</div>
 						</div>
 						<div class="col-9 agile-why-text-2">
-							<h4 class="text-dark font-weight-bold mb-3">Therepy 1</h4>
-							<p>Lorem ipsum magna, vehicula ut porta ete.</p>
+							<h4 class="text-dark font-weight-bold mb-3">Consultation</h4>
+							<p>Get Consulted with our Expert physicians to find the most suitable treatment plan for you.</p>
 						</div>
 					</div>
 					<div class="row wthree_agile_us my-5">
@@ -130,8 +115,8 @@
 							</div>
 						</div>
 						<div class="col-9 agile-why-text-2">
-							<h4 class="text-dark font-weight-bold mb-3">Therepy 2</h4>
-							<p>Lorem ipsum magna, vehicula ut porta ete.</p>
+							<h4 class="text-dark font-weight-bold mb-3">Kerala Ayurvedic Medicines</h4>
+							<p>Safe herbal formulations to help you get out of the illness both for internal and external use.</p>
 						</div>
 					</div>
 					<div class="row wthree_agile_us">
@@ -141,19 +126,19 @@
 							</div>
 						</div>
 						<div class="col-9 agile-why-text-2">
-							<h4 class="text-dark font-weight-bold mb-3">Therepy 3</h4>
-							<p>Lorem ipsum magna, vehicula ut porta ete.</p>
+							<h4 class="text-dark font-weight-bold mb-3">Diet-Lifestyle advice & Yoga</h4>
+							<p>These are the key tools for maintaining good health along with External therapies</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 agileits-w3layouts-grid img text-center">
-					<img src="images/b3.png" alt=" " class="img-fluid" />
+					<img src=<?php echo base_url()."assets/images/b3.png"?> alt=" " class="img-fluid" />
 				</div>
 				<div class="col-lg-4 agileits-w3layouts-grid">
 					<div class="row wthree_agile_us">
 						<div class="col-9 agile-why-text-2">
-							<h4 class="text-dark font-weight-bold mb-3">Therepy 4</h4>
-							<p>Lorem ipsum magna, vehicula ut porta ete.</p>
+							<h4 class="text-dark font-weight-bold mb-3">Therapies</h4>
+							<p>External therapies are the key treatments which will help you in complete recovery - know more</p>
 						</div>
 						<div class="col-3 agile-why-text p-0">
 							<div class="wthree_features_grid">
@@ -163,8 +148,8 @@
 					</div>
 					<div class="row wthree_agile_us my-5">
 						<div class="col-9 agile-why-text-2">
-							<h4 class="text-dark font-weight-bold mb-3">Therepy 5</h4>
-							<p>Lorem ipsum magna, vehicula ut porta ete.</p>
+							<h4 class="text-dark font-weight-bold mb-3">Role of Panchakarma</h4>
+							<p>The practice of Panchakarma promotes healing, strengthening the immune system, releasing energy and improving well-being.</p>
 						</div>
 						<div class="col-3 agile-why-text p-0">
 							<div class="wthree_features_grid">
@@ -174,8 +159,8 @@
 					</div>
 					<div class="row wthree_agile_us">
 						<div class="col-9 agile-why-text-2">
-							<h4 class="text-dark font-weight-bold mb-3">Therepy 6</h4>
-							<p>Lorem ipsum magna, vehicula ut porta ete.</p>
+							<h4 class="text-dark font-weight-bold mb-3">Follow ups</h4>
+							<p>After the therapy course follow up therapies with abhyanga, Kizhi, Shirodhara etc will help to maintain the good health with your on the go & hectic lifestyle. </p>
 						</div>
 						<div class="col-3 agile-why-text p-0">
 							<div class="wthree_features_grid">
@@ -193,52 +178,54 @@
 	<div class="blog-w3ls py-5" id="blog">
 		<div class="container py-xl-5 py-lg-3">
 			<div class="w3ls-titles text-center mb-5">
-				<h3 class="title text-white">Our Treatments</h3>
+				<h3 class="title text-white">Popular therapies</h3>
 				<span>
 					<i class="fas fa-user-md text-white"></i>
 				</span>
-				<p class="mt-2 text-white">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p class="mt-2 text-white">These are our popular wellness solutions which make you fit and well throughout a period if you add these on a regular basis into your routine. Beauty treatments are designed according to Vata, Pita and Kapha principles to bring out your inherent beauty and vitality, to make you glow externally from your inner radiant health.</p>
 			</div>
 			<div class="row package-grids mt-5">
 				<div class="col-md-4 pricing">
 					<div class="price-top">
 						<a href="#">
-							<img src="images/blog1.jpg" alt="" class="img-fluid" />
+							<img src=<?php echo base_url()."assets/images/blog1.jpg"?> alt="" class="img-fluid" />
 						</a>
 						<h3>1
 							<span></span>
 						</h3>
 					</div>
 					<div class="price-bottom p-4">
-						<h4 class="text-dark mb-3">Sit voluptatem accusantium doloremque</h4>
+						<h4 class="text-dark mb-3">Shirodhara</h4>
+						<p>Steady stream oil therapy on Head with medicated luke warm oil</p>
 						
 					</div>
 				</div>
 				<div class="col-md-4 pricing my-md-0 my-5">
 					<div class="price-top">
 						<a href="#">
-							<img src="images/blog2.jpg" alt="" class="img-fluid" />
+							<img src=<?php echo base_url()."assets/images/blog2.jpg"?> alt="" class="img-fluid" />
 						</a>
 						<h3>2
 							<span></span>
 						</h3>
 					</div>
 					<div class="price-bottom p-4">
-						<h4 class="text-dark mb-3">Sit voluptatem accusantium doloremque</h4>						
+						<h4 class="text-dark mb-3">Abhyanga</h4>						
+						<p>Head to toe full body relaxation massage rejuvenation therapy.</p>
 					</div>
 				</div>
 				<div class="col-md-4 pricing">
 					<div class="price-top">
 						<a href="#">
-							<img src="images/blog3.jpg" alt="" class="img-fluid" />
+							<img src=<?php echo base_url()."assets/images/blog3.jpg"?> alt="" class="img-fluid" />
 						</a>
 						<h3>3
 							<span></span>
 						</h3>
 					</div>
 					<div class="price-bottom p-4">
-						<h4 class="text-dark mb-3">Sit voluptatem accusantium doloremque</h4>
-						
+						<h4 class="text-dark mb-3">Beauty Facials</h4>
+						<p>Navayushya beauty care recipes are prepared as per the traditional Ayurvedic formulas laid down in the scriptures. </p>
 					</div>
 				</div>
 			</div>

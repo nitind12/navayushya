@@ -2,12 +2,12 @@
 	<div id="home">
 		<!-- navigation -->
 		<div class="main-top py-1">
-			<nav class="navbar navbar-expand-lg navbar-light fixed-navi" style="padding:0 !important; background: rgba(0,0,0,0.7)">
+			<nav class="navbar navbar-expand-lg navbar-light fixed-navi" style="padding:0 !important; background: rgba(0,0,0,0.9)">
 				<div class="container">
 					<!-- logo -->
 					<h1>
 						<a class="navbar-brand font-weight-bold font-italic" href="#">
-							<img src="<?php echo base_url('assets/images/logo.jpg');?>" style="max-width:200px;">
+							<img src="<?php echo base_url('assets/images/logo.png');?>" style="max-width:150px;">
 						</a>
 					</h1>
 					<!-- //logo -->
@@ -31,17 +31,27 @@
 									Ayurveda
 								</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-
 									<a class="dropdown-item scroll" href="#services">Principal</a>
+									<a class="dropdown-item scroll" href="#services">Wellness Therapies</a>
 									<a class="dropdown-item" href="#">Panchkarma</a>
-									<a class="dropdown-item scroll" href="#blog">Rejuenation</a>
+									<a class="dropdown-item" href="#">Healing</a>
+									<a class="dropdown-item scroll" href="#blog">Consultancy</a>
 									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="#">Therapies</a>
+									<a class="dropdown-item" href="#">Training</a>
 								</div>
+							</li>
+							<li class="nav-item mx-lg-4 my-lg-0 my-3">
+								<a class="nav-link" href="#">Memberships</a>
+							</li>
+							<li class="nav-item mx-lg-4 my-lg-0 my-3">
+								<a class="nav-link" href="#">Online Buy</a>
 							</li>
 							<li class="nav-item mx-lg-4 my-lg-0 my-3">
 								<a class="nav-link" href="#">Other Services</a>
 							</li>
+							<li class="nav-item mx-lg-4 my-lg-0 my-3">
+								<a class="nav-link" href="#">Bookings</a>
+							</li>							
 							<li class="nav-item">
 								<a class="nav-link" href="#">Contact Us</a>
 							</li>

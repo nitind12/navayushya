@@ -52,7 +52,7 @@
 		#fixed1{
 			position:fixed;
 			right:0;
-			top:380px;
+			top:370px;
 			z-index:99999;
 			writing-mode: vertical-rl;
 			text-orientation: mixed;
@@ -66,11 +66,12 @@
 		.aiwhatsapp{
 			position: fixed; right:-75px; top: 15%; z-index: 9999
 		   }
-	</style>
-
+	</style>		
 </head>
 
 <body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v5.0"></script>
 	<!-- header -->
 	<header>
 		<!-- top-bar -->
@@ -83,22 +84,22 @@
 							<ul class="col-lg-4 col-xs-12 top-right-info text-center">
 								<li>
 									<a href="https://www.facebook.com/navayushya/?modal=admin_todo_tour" target="_blank">
-										<i class="fab fa-facebook-f"></i>
+										<img src="<?php echo base_url(). 'assets/images/facebook.png'?>" style="max-height:25px;"/>
 									</a>
 								</li>
 								<li class="ml-3">
 									<a href="https://twitter.com/navayushya" target="_blank">
-										<i class="fab fa-twitter"></i>
+										<img src="<?php echo base_url(). 'assets/images/twitter.png'?>" style="max-height:25px;"/>
 									</a>
 								</li>
 								<li class="ml-3">
 									<a href="#">
-									<i class="fab fa-tripadvisor"></i>
+										<img src="<?php echo base_url(). 'assets/images/linkdin.png'?>" style="max-height:25px;"/>
 									</a>
 								</li>
 								<li class="ml-3">
 									<a href="#">
-										<i class="fab fa-linkedin-in"></i>
+										<img src="<?php echo base_url(). 'assets/images/trip.png'?>" style="max-height:25px;"/>
 									</a>
 								</li>								
 							</ul>
@@ -114,13 +115,14 @@
 						<div class="row">
 							<div class="col-lg-6 col-xs-12 top-w3layouts">
 								<p class="text-white">
-									<i class="far fa-envelope-open mr-2"></i>
+									<img src="<?php echo base_url(). 'assets/images/email.png'?>" style="max-height:25px;"/>
 									<a href="mailto:info@navayushya.in" class="text-white">info@navayushya.in</a>
 								</p>
 							</div>
 							<div class="col-lg-6 col-xs-12 header-w3layouts pl-4 text-lg-left text-center">
 								<p class="text-white">
-									<i class="fas fa-phone mr-2"></i>+918848644306</p>
+								<img src="<?php echo base_url(). 'assets/images/phone.png'?>" style="max-height:25px;"/>
+									+918848644306</p>
 							</div>
 						</div>
 					</div>

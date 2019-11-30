@@ -7,36 +7,16 @@
 			<div class="container py-xl-5 py-lg-3">
 				<div class="row">
 					<div class="col-md-5 w3l-footer">
-						<h2 class="mb-sm-3 mb-2">
-							<a href="#" class="text-white font-italic font-weight-bold">
-								<img src="<?php echo base_url('assets/images/logo.png');?>" style="max-width: 350px;">
-							</a>
-						</h2>	
-						<ul class="top-right-info" style="margin-left:3.5em !important">
-								<li>
-									<a href="https://www.facebook.com/navayushya/?modal=admin_todo_tour" target="_blank">
-										<i class="fab fa-facebook-f fa-2x"></i>
-									</a>
-								</li>
-								<li class="ml-3">
-									<a href="https://twitter.com/navayushya" target="_blank">
-										<i class="fab fa-twitter fa-2x"></i>
-									</a>
-								</li>
-								<li class="ml-3">
-									<a href="#">
-									<i class="fab fa-tripadvisor fa-2x"></i>
-									</a>
-								</li>
-								<li class="ml-3">
-									<a href="#">
-										<i class="fab fa-linkedin-in fa-2x"></i>
-									</a>
-								</li>								
-							</ul>					
+						<h3 class="mb-sm-3 mb-2">Facebook Live</h3>	
+						<div class="fb-page" data-href="https://www.facebook.com/navayushya/?modal=admin_todo_tour" data-tabs="timeline" data-width="" data-height="300px" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/navayushya/?modal=admin_todo_tour" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/navayushya/?modal=admin_todo_tour">Navayushya</a></blockquote></div>
 					</div>
 					<div class="col-md-4 w3l-footer my-md-0 my-4">
-						<h3 class="mb-sm-3 mb-2 text-white">Address</h3>
+						<h3 class="mb-sm-3 mb-2">Address</h3>
+						<h2 class="mb-sm-3 mb-2">
+							<a href="#" class="text-white font-italic font-weight-bold">
+								<img src="<?php echo base_url('assets/images/logo.png');?>" style="max-width: 150px;">
+							</a>
+						</h2>
 						<ul class="list-unstyled">
 							<li>
 								<i class="fas fa-location-arrow float-left"></i>
@@ -54,18 +34,18 @@
 							</li>
 							<li class="my-3">
 								<i class="fas fa-phone float-left"></i>
-								<p class="ml-4">+91 8527008995</p>
+								<p class="ml-4">+91 8848644306</p>
 								<div class="clearfix"></div>
 							</li>
 							<li>
 								<i class="far fa-envelope-open float-left"></i>
-								<a href="mailto:info@navayushya.in" class="ml-3">mail@navayushya.in</a>
+								<a href="mailto:info@navayushya.in" class="ml-3">info@navayushya.in</a>
 								<div class="clearfix"></div>
 							</li>
 						</ul>
 					</div>
 					<div class="col-md-3 w3l-footer">
-						<h3 class="mb-sm-3 mb-2 text-white">Quick Links</h3>
+						<h3 class="mb-sm-3 mb-2">Quick Links</h3>
 						<div class="nav-w3-l">
 							<ul class="list-unstyled">
 								<li>
@@ -93,7 +73,7 @@
 									<a href="#">Career</a>
 								</li>
 								<li class="mt-2">
-									<a href="#">Contact Us</a>
+									<a href="#">Panchakarma Training</a>
 								</li>
 							</ul>
 						</div>
@@ -165,6 +145,24 @@
 
 
 	<a href="https://wa.me/918848644306&text=Hi Navayusha, I would like to inquire about" class="aiwhatsapp" target="_blank"><img src="<?php echo base_url('assets/images/whatsapp_navayusha.png');?>" style="max-width: 120px"></a>
+
+	<!-- Chatting Window -->
+	<!--Start of Tawk.to Script-->
+	<!--Start of Tawk.to Script-->
+		<script type="text/javascript">
+		var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+		(function(){
+		var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+		s1.async=true;
+		s1.src='https://embed.tawk.to/5de20e2d43be710e1d1fd972/default';
+		s1.charset='UTF-8';
+		s1.setAttribute('crossorigin','*');
+		s0.parentNode.insertBefore(s1,s0);
+		})();
+		</script>
+<!--End of Tawk.to Script-->
+	<!--End of Tawk.to Script-->
+	<!-- --------------- -->
 </body>
 
 </html>

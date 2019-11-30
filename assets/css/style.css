@@ -1,8 +1,13 @@
+@font-face {
+    font-family: myFont;
+    src: url(../webfonts/BAHNSCHRIFT.woff);
+  }
+
 body {
     padding: 0;
     margin: 0;
     background: #FFF;
-    font-family: 'Open Sans', sans-serif;
+    font-family: myFont;
 }
 
 body a {
@@ -54,13 +59,13 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: myFont;
 }
 
 p {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: myFont;
     font-size: 15px;
     letter-spacing: 1px;
     line-height: 1.9;
@@ -115,7 +120,7 @@ a:hover {
 /* header */
 /* top bar */
 .top-bar {
-    background: #700f42;
+    background: #743022;
 }
 
 /* social icons */
@@ -130,7 +135,7 @@ a:hover {
 
 .top-right-info li i:hover,
 .top-w3layouts p a:hover {
-    color: #700f42;
+    color: #743022;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -192,13 +197,42 @@ div#home {
     left: -37px;
 }
 
+a.leftMe
+{
+    position: relative;
+}
+
+a.leftMe:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.leftMe:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+
+a.current{
+    position: relative;
+    border-bottom: 2px solid currentColor;    
+    line-height:1.4;    
+}
+  
+
 .navbar-light .navbar-nav .show>.nav-link,
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
-    color: #700f42;
+    color: #fff;  
 }
 
 /* fixed nav */
@@ -220,7 +254,7 @@ nav.fixed-navi ul li {
     right: 0;
     box-shadow: 1px 2px 5px 1px rgba(8, 8, 8, 0.35);
     z-index: 999;
-    background: #700f42;
+    background: #743022;
     -webkit-transition: box-shadow .3s ease-in-out;
     -moz-transition: box-shadow .3s ease-in-out;
     -ms-transition: box-shadow .3s ease-in-out;
@@ -237,7 +271,7 @@ nav.fixed-navi ul li {
 /* //navigation */
 /* logo */
 a.navbar-brand {
-    color: #700f42;
+    color: #743022;
     font-size: 50px;
     padding: 0;
 }
@@ -246,7 +280,7 @@ a.navbar-brand {
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-brand:focus,
 .w3l-footer h2 a span {
-    color: #700f42;
+    color: #743022;
 }
 
 a.navbar-brand span {
@@ -271,7 +305,7 @@ a.login-button {
 }
 
 a.login-button:hover {
-    background: #700f42;
+    background: #743022;
 }
 
 /* //login button */
@@ -310,7 +344,7 @@ p.account-w3ls {
 }
 
 p.account-w3ls a {
-    color: #700f42;
+    color: #743022;
 }
 
 .form-group label {
@@ -323,7 +357,7 @@ p.account-w3ls a {
 }
 
 button.submit {
-    background: #700f42;
+    background: #743022;
     color: #fff;
     font-size: 15px;
     letter-spacing: 2px;
@@ -356,7 +390,7 @@ button.submit:hover {
 }
 
 .banner-top1 {
-    background: url(../images/banner4.jpg) no-repeat 0px 0px;
+    background: url(../images/png/slide1.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -365,7 +399,7 @@ button.submit:hover {
 }
 
 .banner-top2 {
-    background: url(../images/banner5.jpg) no-repeat 0px 0px;
+    background: url(../images/png/slide2.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -374,7 +408,7 @@ button.submit:hover {
 }
 
 .banner-top3 {
-    background: url(../images/banner6.jpg) no-repeat 0px 0px;
+    background: url(../images/png/slide3.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -388,16 +422,16 @@ button.submit:hover {
 
 .banner-info_agile_w3ls h3 {
     font-size: 56px;
-    color: #F660FD;
-    text-shadow:2px 2px 2px #700f42;
+    color: #fff;
+    text-shadow:2px 2px 2px #743022;
     letter-spacing: 1px;
     font-weight: 600;
 }
 
 .banner-info_agile_w3ls h3 span {
-    /*background: #700f42;*/
-    color: #F660FD;
-    text-shadow:2px 2px 2px #700f42;
+    /*background: #743022;*/
+    color: #fff;
+    text-shadow:2px 2px 2px #743022;
     padding: 0 15px;
 }
 
@@ -413,7 +447,7 @@ button.submit:hover {
     padding: 13px 24px;
     letter-spacing: 1px;
     font-size: 14px;
-    background: #700f42;
+    background: #743022;
     display: inline-block;
     border: 1px solid #ffffffba;
 }
@@ -421,7 +455,7 @@ button.submit:hover {
 .banner-info_agile_w3ls a:hover,
 a.w3ls-button-agile:hover {
     letter-spacing: 3px;
-    background: #700f42;
+    background: #743022;
     color: #fff !important;
 }
 
@@ -621,7 +655,7 @@ a.w3ls-button-agile:hover {
 }
 
 .callbacks_here a:after {
-    background: #700f42;
+    background: #743022;
 }
 
 /* //responsive slide */
@@ -675,7 +709,7 @@ h6.text-white {
 /* //banner bottom */
 /* middle */
 .w3ls-welcome {
-    background: url(../images/bg2.jpg) no-repeat center fixed;
+    background: url(../images/png/background.jpg) no-repeat center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -704,7 +738,7 @@ h6.text-white {
 }
 
 .readmore-w3-agileits a.w3ls-button-agile.text-dark {
-    border-color: #700f42;
+    border-color: #743022;
 }
 
 /* //middle */
@@ -740,7 +774,7 @@ h3.title {
 }
 
 .w3ls-titles i {
-    color: #700f42;
+    color: #743022;
     font-size: 26px;
     margin-top: 5px;
 }
@@ -770,6 +804,18 @@ h3.title {
     line-height: 2.2;
     background: #5388d8;
     margin-top: 1.2em;
+}
+
+.wthree_features_grid img {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 31px;
+    color: #fff;
+    padding:10px;
+    line-height: 2.2;
+    background: #5388d8;
+    margin-top: 2em;
 }
 
 /* //services */
@@ -805,7 +851,7 @@ h3.title {
     font-size: 26px;
     color: #fff;
     position: absolute;
-    background: #700f42;
+    background: #743022;
     padding: 10px 25px;
     bottom: 0;
     letter-spacing: 1px;
@@ -830,7 +876,7 @@ h3.title {
 }
 
 .price-bottom i {
-    color: #700f42;
+    color: #743022;
 }
 
 .price-bottom a {
@@ -846,7 +892,7 @@ h3.title {
 /* //blog */
 /* treatments */
 .screen-agile i {
-    background: #700f42;
+    background: #743022;
     color: #fff;
     width: 70px;
     height: 70px;
@@ -863,7 +909,7 @@ h3.title {
 /* //treatments */
 /* footer */
 footer {
-    background: url(../images/bg3.jpg) no-repeat center fixed;
+    background: url(../images/png/footer.jpg) no-repeat center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -878,30 +924,31 @@ footer {
 
 .w3l-footer h3 {
     font-size: 26px;
+    color: #743022;
 }
 
 .w3l-footer p,
 .w3l-footer p a,
 .w3l-footer ul li a {
     font-size: 14px;
-    color: #efefef;
+    color: #743022;
     letter-spacing: 1px;
 }
 
 .w3l-footer ul li i {
-    color: #700f42;
+    color: #743022;
     line-height: 2;
 }
 
 /* copyright */
 p.copy-right-grids {
     font-size: 14px;
-    color: #fff;
+    color: #743022;
     letter-spacing: 2px;
 }
 
 p.copy-right-grids a {
-    color: #700f42;
+    color: #743022;
 }
 
 p.copy-right-grids a:hover {
@@ -945,8 +992,8 @@ a.w3_agile_dribble:hover {
 }
 
 a.w3_agile_google:hover {
-    background: #700f42;
-    border-color: #700f42;
+    background: #743022;
+    border-color: #743022;
 }
 
 /* //social-icons */
@@ -965,7 +1012,7 @@ a.w3_agile_google:hover {
 
 /* page details */
 .breadcrumb li a {
-    color: #700f42;
+    color: #743022;
 }
 
 .breadcrumb li {
@@ -988,11 +1035,11 @@ a.w3_agile_google:hover {
 .about_grids a {
     font-size: 15px;
     letter-spacing: 1px;
-    color: #700f42;
+    color: #743022;
 }
 
 .about_grids a:hover {
-    color: #700f42;
+    color: #743022;
 }
 
 /* about */
@@ -1135,7 +1182,7 @@ h6.blog-first {
 }
 
 h6.blog-first i {
-    color: #700f42;
+    color: #743022;
 }
 
 ul.blog_list li {
@@ -1145,12 +1192,12 @@ ul.blog_list li {
 
 ul.blog_list.my-3 li a,
 .wthree_blog_events_list li i {
-    color: #700f42;
+    color: #743022;
 }
 
 ul.blog_list.my-3 li a:hover,
 h5.card-title a:hover {
-    color: #700f42 !important;
+    color: #743022 !important;
 }
 
 ul.blog_list.my-3 li {
@@ -1158,7 +1205,7 @@ ul.blog_list.my-3 li {
 }
 
 .single-left1 p i {
-    color: #700f42;
+    color: #743022;
     display: block;
 }
 
@@ -1179,7 +1226,7 @@ ul.blog_list.my-3 li {
 
 .admin a {
     display: inline-block;
-    color: #700f42;
+    color: #743022;
     font-size: 18px;
     letter-spacing: 1px;
 }
@@ -1197,7 +1244,7 @@ ul.blog_list.my-3 li {
 }
 
 .comments-grid-right ul li a {
-    color: #700f42;
+    color: #743022;
 }
 
 .comments-grid-right ul li a:hover {
@@ -1240,7 +1287,7 @@ ul.blog_list.my-3 li {
 .leave-coment-form input[type="submit"] {
     outline: none;
     border: none;
-    background: #700f42;
+    background: #743022;
     padding: 14px 36px;
     font-size: 15px;
     color: #fff;
@@ -1283,7 +1330,7 @@ h3.blog-title {
 
 .categories ul li i,
 .single-left2-left ul li i {
-    color: #700f42;
+    color: #743022;
 }
 
 .categories ul li a,
@@ -1295,7 +1342,7 @@ h3.blog-title {
 .single-left2-left ul li a:hover,
 .posts-grid-right h4 a:hover,
 .wthree_blog_events_list li a:hover {
-    color: #700f42 !important;
+    color: #743022 !important;
 }
 
 /* //Categories */
@@ -1327,8 +1374,8 @@ h3.blog-title {
 }
 
 .tags ul li a:hover {
-    background: #700f42;
-    border: 1px solid #700f42;
+    background: #743022;
+    border: 1px solid #743022;
     color: #fff;
 }
 
@@ -1381,7 +1428,7 @@ h4.price-clr {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-    color: #700f42;
+    color: #743022;
 }
 
 .agileinfo-tab-content1:nth-child(1),
@@ -1413,7 +1460,7 @@ h5.title-w3 {
 .contact-right-w3l select.form-control {
     font-size: 15px;
     border: none;
-    border-bottom: 1px solid #700f42;
+    border-bottom: 1px solid #743022;
     background: #fff;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.28);
     outline: none;
@@ -1446,7 +1493,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .contact-right-w3l input[type="submit"]:hover {
-    background: #700f42;
+    background: #743022;
 }
 
 .contact-right-w3l {

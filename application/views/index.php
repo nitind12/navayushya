@@ -10,8 +10,7 @@
 									<span>Ayurveda</span>
 								</h3>
 								<p class="mt-3 mb-md-5 mb-3">The treatments and therapies in Navayushya are based on creating a harmonious mind-body balance, combined with treatments based on an individual’s unique Prakruti and requirements.</p>
-								<a href="#">Read More
-									<i class="fa fa-caret-right ml-2" aria-hidden="true"></i>
+								<a href="#">Read More >>									
 								</a>
 							</div>
 						</div>
@@ -25,8 +24,7 @@
 									<span>Ayurveda</span>
 								</h3>
 								<p class="mt-3 mb-md-5 mb-3">The treatments and therapies in Navayushya are based on creating a harmonious mind-body balance, combined with treatments based on an individual’s unique Prakruti and requirements.</p>
-								<a href="#">Read More
-									<i class="fa fa-caret-right ml-2" aria-hidden="true"></i>
+								<a href="#">Read More >>							
 								</a>
 							</div>
 						</div>
@@ -40,8 +38,7 @@
 									<span>Ayurveda</span>
 								</h3>
 								<p class="mt-3 mb-md-5 mb-3">The treatments and therapies in Navayushya are based on creating a harmonious mind-body balance, combined with treatments based on an individual’s unique Prakruti and requirements.</p>
-								<a href="#">Read More
-									<i class="fa fa-caret-right ml-2" aria-hidden="true"></i>
+								<a href="#">Read More >>									
 								</a>
 							</div>
 						</div>
@@ -57,7 +54,7 @@
 	<div class="banner-bottom py-12" style="background: #700f42">
 		<div class="d-flex container py-xl-3 py-lg-3">
 			<div class="col-lg-1 col-xs-12" style="margin:0 auto;">							
-			<img src=<?php echo base_url()."assets/images/ayur.png"?> alt=" " class="img-fluid" style="align:left; max-width:200px;">
+				<img src=<?php echo base_url()."assets/images/png/ayurvedaMan.png"?> alt=" " class="img-fluid" style="align:left;max-width:150px">
 			</div>
 			<div class="banner-left-bottom-w3ls offset-lg-2 offset-md-1">							
 				<h3 class="text-white my-3">Kerala Tradition Of Ayurveda</h3>
@@ -76,9 +73,10 @@
 				</div>
 				<div class="col-lg-7 welcome-left mt-4">
 					<h3>Panchakarma for Healing</h3>					
-					<h4 class="my-4 font-italic">It is the Ayurvedic system for detoxification and purification. In this process the body is purified, freeing it to naturally exercise its inherent rejuvenating abilities.</h4>					
+					<h4 class="my-4 font-italic" align="justify">It is an Ayurvedic system for detoxification and purification. The practice of Panchakarma promotes healing, strengthening the immune system, releasing energy and improving well-being. In this process the body is purified, freeing it to naturally exercise its inherent rejuvenating abilities. Panchakarma therapy is beneficial not only for cures but for prevention of ailments, and for revitalizing your health and energy.</h4>
+					<h4 class="my-4 font-italic" align="justify">Consult our medical specialist to find out which Panchakarma therapy would be the most suitable for you.</h4>					
 					<div class="readmore-w3-agileits mt-md-5 mt-4">
-						<a href="#" class="w3ls-button-agile text-dark">View More</a>
+						<a href="#" class="w3ls-button-agile text-dark">View More >></a>
 					</div>
 				</div>
 			</div>
@@ -100,7 +98,7 @@
 					<div class="row wthree_agile_us">
 						<div class="col-3 agile-why-text p-0 text-right">
 							<div class="wthree_features_grid">
-								<i class="fas fa-user-md"></i>
+								<img src="<?php echo base_url(). 'assets/images/consult.png'?>"/>
 							</div>
 						</div>
 						<div class="col-9 agile-why-text-2">
@@ -111,7 +109,7 @@
 					<div class="row wthree_agile_us my-5">
 						<div class="col-3 agile-why-text p-0 text-right">
 							<div class="wthree_features_grid">
-								<i class="fas fa-syringe"></i>
+							<img src="<?php echo base_url(). 'assets/images/ayurvedaKerala.png'?>"/>
 							</div>
 						</div>
 						<div class="col-9 agile-why-text-2">
@@ -122,7 +120,7 @@
 					<div class="row wthree_agile_us">
 						<div class="col-3 agile-why-text p-0 text-right">
 							<div class="wthree_features_grid">
-								<i class="fab fa-medrt"></i>
+							<img src="<?php echo base_url(). 'assets/images/diet.png'?>"/>
 							</div>
 						</div>
 						<div class="col-9 agile-why-text-2">
@@ -142,7 +140,7 @@
 						</div>
 						<div class="col-3 agile-why-text p-0">
 							<div class="wthree_features_grid">
-								<i class="fas fa-medkit"></i>
+							<img src="<?php echo base_url(). 'assets/images/theripy.png'?>"/>
 							</div>
 						</div>
 					</div>
@@ -153,7 +151,7 @@
 						</div>
 						<div class="col-3 agile-why-text p-0">
 							<div class="wthree_features_grid">
-								<i class="fas fa-wheelchair"></i>
+							<img src="<?php echo base_url(). 'assets/images/panchkarma.png'?>"/>
 							</div>
 						</div>
 					</div>
@@ -164,7 +162,7 @@
 						</div>
 						<div class="col-3 agile-why-text p-0">
 							<div class="wthree_features_grid">
-								<i class="fas fa-hospital"></i>
+							<img src="<?php echo base_url(). 'assets/images/follow.png'?>"/>
 							</div>
 						</div>
 					</div>

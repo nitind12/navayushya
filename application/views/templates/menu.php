@@ -7,7 +7,7 @@
 					<!-- logo -->
 					<h1>
 						<a class="navbar-brand font-weight-bold font-italic" href="#">
-							<img src="<?php echo base_url('assets/images/logo.png');?>" style="max-width:150px;">
+							<img src="<?php echo base_url('assets/images/navLogo.png');?>" style="max-width:180px;">
 						</a>
 					</h1>
 					<!-- //logo -->
@@ -18,15 +18,13 @@
 					<div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
 						<ul class="navbar-nav ml-lg-auto">
 							<li class="nav-item active mt-lg-0 mt-3">
-								<a class="nav-link" href="#">Home
-									<span class="sr-only">(current)</span>
-								</a>
+								<a class="nav-link current" href="#">Home</a>
 							</li>
 							<li class="nav-item mx-lg-4 my-lg-0 my-3">
-								<a class="nav-link" href="#">About Us</a>
+								<a class="nav-link leftMe" href="#">About Us</a>
 							</li>
 							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+								<a class="nav-link  leftMe dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
 								    aria-haspopup="true" aria-expanded="false">
 									Ayurveda
 								</a>
@@ -41,19 +39,19 @@
 								</div>
 							</li>
 							<li class="nav-item mx-lg-4 my-lg-0 my-3">
-								<a class="nav-link" href="#">Memberships</a>
+								<a class="nav-link leftMe" href="#">Memberships</a>
 							</li>
 							<li class="nav-item mx-lg-4 my-lg-0 my-3">
-								<a class="nav-link" href="#">Online Buy</a>
+								<a class="nav-link leftMe" href="#">Online Buy</a>
 							</li>
 							<li class="nav-item mx-lg-4 my-lg-0 my-3">
-								<a class="nav-link" href="#">Other Services</a>
+								<a class="nav-link leftMe" href="#">Other Services</a>
 							</li>
 							<li class="nav-item mx-lg-4 my-lg-0 my-3">
-								<a class="nav-link" href="#">Bookings</a>
+								<a class="nav-link leftMe" href="#">Bookings</a>
 							</li>							
 							<li class="nav-item">
-								<a class="nav-link" href="#">Contact Us</a>
+								<a class="nav-link leftMe" href="#">Contact Us</a>
 							</li>
 						</ul>
 											

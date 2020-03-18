@@ -78,51 +78,51 @@
 		<div class="top-bar py-3">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-7 top-social-agile">
+					<div class="col-lg-8 top-social-agile">
 						<div class="row">
 							<!-- social icons -->
 							<ul class="col-lg-4 col-xs-12 top-right-info text-center">
 								<li>
 									<a href="https://www.facebook.com/navayushya/?modal=admin_todo_tour" target="_blank">
-										<img src="<?php echo base_url(). 'assets/images/facebook.png'?>" style="max-height:25px;"/>
+										<img src="<?php echo base_url(). 'assets/images/facebook.png'?>" style="max-height:20px;"/>
 									</a>
 								</li>
 								<li class="ml-3">
 									<a href="https://twitter.com/navayushya" target="_blank">
-										<img src="<?php echo base_url(). 'assets/images/twitter.png'?>" style="max-height:25px;"/>
+										<img src="<?php echo base_url(). 'assets/images/twitter.png'?>" style="max-height:20px;"/>
 									</a>
 								</li>
 								<li class="ml-3">
 									<a href="#">
-										<img src="<?php echo base_url(). 'assets/images/linkdin.png'?>" style="max-height:25px;"/>
+										<img src="<?php echo base_url(). 'assets/images/linkdin.png'?>" style="max-height:20px;"/>
 									</a>
 								</li>
 								<li class="ml-3">
 									<a href="#">
-										<img src="<?php echo base_url(). 'assets/images/trip.png'?>" style="max-height:25px;"/>
+										<img src="<?php echo base_url(). 'assets/images/trip.png'?>" style="max-height:20px;"/>
 									</a>
 								</li>								
 							</ul>
 							<!-- //social icons -->
 							<div class="col-xs-12 header-top_w3layouts pl-3 text-lg-left text-center">
 								<p class="text-white">
-									<i class="fas fa-map-marker-alt mr-2"></i>Navayushya, Delhi, NCR<br/>
+									<i class="fas fa-map-marker-alt mr-2"></i>Q1-282, Ground floor, South City 2, Sector 49, Gurugram 122018<br/>
 									<i class="fas fa-map-marker-alt mr-2"></i>Navayushya-The Kikar Lodge, Ropar, Punjab</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-5 top-social-agile text-lg-right text-center">
+					<div class="col-lg-4 top-social-agile text-lg-right text-center">
 						<div class="row">
 							<div class="col-lg-6 col-xs-12 top-w3layouts">
 								<p class="text-white">
-									<img src="<?php echo base_url(). 'assets/images/email.png'?>" style="max-height:25px;"/>
+									<img src="<?php echo base_url(). 'assets/images/email.png'?>" style="max-height:20px;"/>
 									<a href="mailto:info@navayushya.in" class="text-white">info@navayushya.in</a>
 								</p>
 							</div>
 							<div class="col-lg-6 col-xs-12 header-w3layouts pl-4 text-lg-left text-center">
 								<p class="text-white">
-								<img src="<?php echo base_url(). 'assets/images/phone.png'?>" style="max-height:25px;"/>
-									+918848644306</p>
+								<img src="<?php echo base_url(). 'assets/images/phone.png'?>" style="max-height:20px;"/>
+									+916238791097&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 							</div>
 						</div>
 					</div>

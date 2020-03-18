@@ -34,7 +34,7 @@
 							</li>
 							<li class="my-3">
 								<i class="fas fa-phone float-left"></i>
-								<p class="ml-4">+91 8848644306</p>
+								<p class="ml-4">+916238791097</p>
 								<div class="clearfix"></div>
 							</li>
 							<li>
@@ -144,7 +144,7 @@
 	<!-- //Js files -->
 
 
-	<a href="https://wa.me/918848644306&text=Hi Navayusha, I would like to inquire about" class="aiwhatsapp" target="_blank"><img src="<?php echo base_url('assets/images/whatsapp_navayusha.png');?>" style="max-width: 120px"></a>
+	<a href="https://wa.me/916238791097&text=Hi Navayusha, I would like to inquire about" class="aiwhatsapp" target="_blank"><img src="<?php echo base_url('assets/images/whatsapp_navayusha.png');?>" style="max-width: 120px"></a>
 
 	<!-- Chatting Window -->
 	<!--Start of Tawk.to Script-->

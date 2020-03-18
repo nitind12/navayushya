@@ -6,12 +6,17 @@
 					<div class="banner-top1">
 						<div class="banner-info_agile_w3ls">
 							<div class="container">
-								<h3>Navayushya
-									<span>Ayurveda</span>
+								<h3>Rejuvenating 
+									<span>Experience</span>
 								</h3>
 								<p class="mt-3 mb-md-5 mb-3">The treatments and therapies in Navayushya are based on creating a harmonious mind-body balance, combined with treatments based on an individual’s unique Prakruti and requirements.</p>
 								<a href="#">Read More >>									
 								</a>
+								<div class="wrapper">
+									<a class="site-button" href="tel:916238791097">
+										Call for an appointment
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -20,12 +25,17 @@
 					<div class="banner-top2">
 						<div class="banner-info_agile_w3ls">
 							<div class="container">
-								<h3>Navayushya
-									<span>Ayurveda</span>
+								<h3>Rejuvenating 
+									<span>Experience</span>
 								</h3>
 								<p class="mt-3 mb-md-5 mb-3">The treatments and therapies in Navayushya are based on creating a harmonious mind-body balance, combined with treatments based on an individual’s unique Prakruti and requirements.</p>
 								<a href="#">Read More >>							
 								</a>
+								<div class="wrapper">
+									<a class="site-button" href="tel:916238791097">
+										Call for an appointment
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -34,12 +44,17 @@
 					<div class="banner-top3">
 						<div class="banner-info_agile_w3ls">
 							<div class="container">
-								<h3>Navayushya
-									<span>Ayurveda</span>
+								<h3>Rejuvenating 
+									<span>Experience</span>
 								</h3>
 								<p class="mt-3 mb-md-5 mb-3">The treatments and therapies in Navayushya are based on creating a harmonious mind-body balance, combined with treatments based on an individual’s unique Prakruti and requirements.</p>
 								<a href="#">Read More >>									
 								</a>
+								<div class="wrapper">
+									<a class="site-button" href="tel:916238791097">
+										Call for an appointment
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -54,7 +69,7 @@
 	<div class="banner-bottom py-12" style="background: #700f42">
 		<div class="d-flex container py-xl-3 py-lg-3">
 			<div class="col-lg-1 col-xs-12" style="margin:0 auto;">							
-				<img src=<?php echo base_url()."assets/images/png/ayurvedaMan.png"?> alt=" " class="img-fluid" style="align:left;max-width:150px">
+				<img src=<?php echo base_url()."assets/images/name.png"?> alt="" style="align:left;max-width:250px;margin-top:1.3em;">
 			</div>
 			<div class="banner-left-bottom-w3ls offset-lg-2 offset-md-1">							
 				<h3 class="text-white my-3">Kerala Tradition Of Ayurveda</h3>
@@ -223,7 +238,7 @@
 					</div>
 					<div class="price-bottom p-4">
 						<h4 class="text-dark mb-3">Beauty Facials</h4>
-						<p>Navayushya beauty care recipes are prepared as per the traditional Ayurvedic formulas laid down in the scriptures. </p>
+						<p>Facials as per the traditional Ayurvedic formulas laid down in scriptures </p>
 					</div>
 				</div>
 			</div>

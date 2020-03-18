@@ -17,14 +17,14 @@
 					</button>
 					<div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
 						<ul class="navbar-nav ml-lg-auto">
-							<li class="nav-item active mt-lg-0 mt-3">
+							<li class="nav-item active mx-lg-4 my-lg-0 my-3">
 								<a class="nav-link current" href="#">Home</a>
 							</li>
 							<li class="nav-item mx-lg-4 my-lg-0 my-3">
-								<a class="nav-link leftMe" href="#">About Us</a>
+								<a class="nav-link leftMe" href="#">About&nbsp;Us</a>
 							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link  leftMe dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+							<li class="nav-item dropdown mx-lg-4 my-lg-0 my-3">
+								<a class="nav-link leftMe dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
 								    aria-haspopup="true" aria-expanded="false">
 									Ayurveda
 								</a>
@@ -42,16 +42,16 @@
 								<a class="nav-link leftMe" href="#">Memberships</a>
 							</li>
 							<li class="nav-item mx-lg-4 my-lg-0 my-3">
-								<a class="nav-link leftMe" href="#">Online Buy</a>
+								<a class="nav-link leftMe" href="#">Online&nbsp;Buy</a>
 							</li>
 							<li class="nav-item mx-lg-4 my-lg-0 my-3">
-								<a class="nav-link leftMe" href="#">Other Services</a>
+								<a class="nav-link leftMe" href="#">Other&nbsp;Services</a>
 							</li>
 							<li class="nav-item mx-lg-4 my-lg-0 my-3">
 								<a class="nav-link leftMe" href="#">Bookings</a>
 							</li>							
-							<li class="nav-item">
-								<a class="nav-link leftMe" href="#">Contact Us</a>
+							<li class="nav-item mx-lg-4 my-lg-0 my-3">
+								<a class="nav-link leftMe" href="#">Contact&nbsp;Us</a>
 							</li>
 						</ul>
 											

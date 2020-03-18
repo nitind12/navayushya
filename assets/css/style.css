@@ -120,7 +120,7 @@ a:hover {
 /* header */
 /* top bar */
 .top-bar {
-    background: #743022;
+    background: #700f42;
 }
 
 /* social icons */
@@ -457,6 +457,35 @@ a.w3ls-button-agile:hover {
     letter-spacing: 3px;
     background: #743022;
     color: #fff !important;
+}
+
+.banner-info_agile_w3ls .wrapper {
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+  }
+
+.banner-info_agile_w3ls .site-button {
+    margin:auto;
+    color: #fff;
+    padding: 13px 24px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    background:none;
+    display: inline-block;
+    border: 1px solid #ffffffba;
+}
+
+.banner-info_agile_w3ls .site-button:hover {
+    color: #fff !important;
+    padding: 13px 24px;
+    letter-spacing: 3px;
+    font-size: 14px;
+    background:none;
+    display: inline-block;
+    border: 1px solid #ffffffba;
 }
 
 /* //banner */

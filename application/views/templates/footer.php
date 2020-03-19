@@ -21,7 +21,7 @@
 							<li>
 								<i class="fas fa-location-arrow float-left"></i>
 								<p class="ml-4">Navayushya
-									<span>Navayushya Kerala Ayurveda, Munirka, New Delhi - 67</span>
+									<span>Q1-282, Ground floor, South City 2, Sector 49, Gurugram 122018</span>
 								</p>																
 								<div class="clearfix"></div>
 							</li>

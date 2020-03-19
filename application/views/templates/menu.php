@@ -24,9 +24,9 @@
 								<a class="nav-link leftMe" href="#">About&nbsp;Us</a>
 							</li>
 							<li class="nav-item dropdown mx-lg-4 my-lg-0 my-3">
-								<a class="nav-link leftMe dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+								<a class="nav-link leftMe" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
 								    aria-haspopup="true" aria-expanded="false">
-									Ayurveda
+									Ayurveda&blacktriangledown;
 								</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 									<a class="dropdown-item scroll" href="#services">Principal</a>
